@@ -12,3 +12,23 @@ public class main{
     }
     
 }
+
+/* Another method to check  odd and even no using bitwise operators
+binary of 5 is 101
+binary of 1 is 001
+result  is     001 // Odd no will provide one.
+*/
+
+
+public class main {
+    public static void main(String args []){
+        int no = 5; // binary of 5 is 101
+        if((no & 1)==0)  // binary of one 1 is 001 and when we calculate the difference of 1(001) and 5(101) output is 1
+            System.out.println("even");             // Every odd no will give 1 as difference and even no will provide 0 
+        
+        else
+        
+            System.out.println("odd");
+        
+    }
+}
