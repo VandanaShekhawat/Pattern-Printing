@@ -11,3 +11,18 @@ public class MyClass {
      System.out.println("day is :" + day);
     }
 }
+
+// Another method 
+
+public class main{
+    public static void main(String args []){
+       int input = 372;
+       int year = input / 365;
+       int week = (input-(year*365))/7;
+       int day = input -((year*365)+(week* 7));
+       System.out.println(year);
+       System.out.println(week);
+       System.out.println(day);
+  
+    }
+}
