@@ -1,0 +1,13 @@
+public class MyClass {
+    public static void main(String args[]) {
+ int no = 16;
+ double temp;
+ double sqr = no /2;
+ do {
+     temp = sqr;
+     sqr = (temp+ (no/temp))/2;   //WAP to enter any no and calculate its square root.
+ }
+     while(( temp - sqr) !=0);
+     System.out.println(sqr);
+ }
+}
