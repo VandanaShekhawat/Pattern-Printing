@@ -1,0 +1,12 @@
+public class MyClass {
+    public static void main(String args[]) {
+     int a = 100;
+     int b = 20;
+     int temp;          // Swapping nos using third variables
+     temp = a;
+     a = b;
+     b = temp;
+     System.out.println("Value of a after swapping :"+ a);
+     System.out.println("Value of b after swapping :"+ b);
+    }
+}
