@@ -1,0 +1,14 @@
+public class main{
+    static boolean isEven(int no)
+    {
+        if(( no ^ 1) == no + 1)      // Program to find odd or even no using bitwise operator.
+        return true;
+        else
+        return false;
+    }
+    public static void main (String args[]){
+       int no = 1;
+       System.out.println(isEven (no) == true ? "Even" : "Odd");
+    }
+    
+}
