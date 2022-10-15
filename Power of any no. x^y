@@ -1,0 +1,11 @@
+public class MyClass {
+    public static void main(String args[]) {
+  int Base =3, Power =4, product =1; // WAP to find power of any number X^y.
+  while( Power>0)
+  {
+      product = product *Base;
+      Power--;
+  }
+  System.out.println(product);
+    }
+}
