@@ -1,0 +1,13 @@
+public class MyClass {
+    public static void main(String args[]) {
+     int input = 756;
+     int year = input /365;
+     input = input % 365;
+     System.out.println(" Year is : " + year);
+     int week = input /7;
+     input = input % 7;
+     System.out.println("Week is: " + week);
+     int day = input;
+     System.out.println("day is :" + day);
+    }
+}
