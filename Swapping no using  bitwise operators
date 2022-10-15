@@ -1,0 +1,11 @@
+public class MyClass {
+    public static void main(String args[]) {
+     int a = 100;
+     int b = 200;               
+    a = a^b;            //    Swapping nos using bitwise operator
+    b = a^b;
+    a = a^b;
+     System.out.println("Value of a after swapping :"+ a);
+     System.out.println("Value of b after swapping :"+ b);
+    }
+}
