@@ -1,0 +1,19 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int x=0;
+      int count =0;
+      if(x==0) // In case when input is 0
+      {
+          System.out.println("There is 1 digit in a no");
+      }
+      else
+      {
+    while(x!=0){            // To count number of digits in an Integer
+        x=x/10;
+        count++;
+    }
+
+      System.out.println(count);
+        }
+    }
+}
