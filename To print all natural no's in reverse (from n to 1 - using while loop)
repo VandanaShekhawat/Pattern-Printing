@@ -1,0 +1,11 @@
+public class main{
+    public static void main(String args[]){
+       int no = 73;
+       while(no>=1)         // WAP to print all natural nos in reverse (from n to 1 - using while loop)
+       {            
+           System.out.println(no);
+           no--;
+       }
+       
+    }
+}
