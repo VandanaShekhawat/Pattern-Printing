@@ -1,0 +1,17 @@
+public class MyClass {
+    public static void main(String args[]) {            //HCF(gcd) of a given no.
+      int x=16;
+      int y=24;
+      int gcd =1;
+      int min = (x>y)? x:y;
+      for(int i = 1;i<=min;i++){
+          if(x%i==0 && y%i==0){
+              gcd=i;
+          }
+      }
+      System.out.println("GCD is : " + gcd);        //HCF(gcd) of a given no.
+      int lcm = 1;
+      lcm= (x*y)/gcd;
+      System.out.print("LCM is :" + lcm);           //LCM of a given no.
+    }
+}
