@@ -1,0 +1,11 @@
+public class PrimeFactor{
+    public static void main (String args []){
+        int no = 75;                        //Find Prime Factor of a given no.
+        for(int i = 2; no>1;i++){
+            while(no%i==0){
+                System.out.print(i+" ");
+                no=no/i;
+            }
+        }
+    }
+}
