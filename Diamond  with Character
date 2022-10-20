@@ -45,3 +45,15 @@ public static void main(String args[]) {
    *A*A*
     *A*
      *
+
+
+     A        /// instesd of j put i in if condition to get this pattern.
+    ***
+   AAAAA
+  *******
+ AAAAAAAAA
+ *********
+  AAAAAAA
+   *****
+    AAA
+     *
