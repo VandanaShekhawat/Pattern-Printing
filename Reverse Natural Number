@@ -1,0 +1,12 @@
+public class reverseNaturalNumber {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number");
+        int no = sc.nextInt();
+        while(no > 0){
+            System.out.println("Reversed Natural Number series  : " + no --);
+        }
+        sc.close();
+    }
+    
+}
