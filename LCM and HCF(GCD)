@@ -10,6 +10,8 @@ public class MyClass {
           }
       }
       System.out.println("GCD is : " + gcd);        //HCF(gcd) of a given no.
+    }
+ }
       int lcm = 1;
       lcm= (x*y)/gcd;
       System.out.print("LCM is :" + lcm);           //LCM of a given no.
