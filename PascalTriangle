@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class pascalTriangle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Input : ");
+        int num = sc.nextInt();
+        for(int i= 0; i<=num ;i++){
+            for(int j = 0; j<num-i; j++){
+                System.out.print(" ");
+            }
+            for(int k = 0; k<=i;k++){
+                System.out.print(coff(i,k)+" ");
+            }
+            System.out.println(" ");
+        }
+        sc.close();
+    }
+         public static int coff(int n, int r){     // function to calculate binomial coefficients
+            int c = fact(n)/(fact(r)* fact(n-r));
+            return c;
+        }
+       public static int fact (int n){           // function for factorial
+            int f = 1;                  
+            for(int i = 1; i<=n;i++){
+                f = f*i;
+            }
+            return f;
+        }
+    }
